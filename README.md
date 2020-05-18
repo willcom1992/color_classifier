@@ -7,6 +7,9 @@
 新規フォルダを作成し、画像を保存します。<br>
 csvファイルを新規作成し、各画像のr,g,bの各値のデータを保存します。<br>
 ★プログラム実行後のサンプルとして、colorsフォルダ、created_colors.csvが既に用意されています。
+|colorsフォルダ|created_colors.csv|
+|---|---|
+|![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/287b773d-c661-67f3-6509-9c3902e305e8.png)|![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/230502e4-f611-9c03-43ec-938e4b978802.png)|
 
 
 ## 2, color_teacher.pyの実行（単色画像にラベルをつけます）

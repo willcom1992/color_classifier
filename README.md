@@ -14,12 +14,12 @@ csvファイルを新規作成し、各画像のr,g,bの各値のデータを保
 
 
 
-## 2, color_teacher.pyの実行（単色画像にラベルをつけます）
-1で作成したcsvファイルからランダムにn件のデータを選択し、GUIによってラベルをつけます。<br>
+## 2, color_teacher.pyの実行（単色画像にラベルをつけて、教師データを作ります）
+1で作成したcsvファイルからランダムにn件のデータを選択し、「Mr. 1 or 0」によってラベルをつけます。<br>
 csvファイルを新規作成し、作成したデータを保存します。<br>
 ★プログラム実行後のサンプルとして、既にlearned_colors_green.csv、learned_colors_myfavorites.csvが用意されています。<br>
 →learned_colors_green.csvは、緑色とその他の色を分類しています。learned_colors_myfavorites.csvは、私の好きな色と好きでない色とを分類しています。<br>
-★デフォルトでは、n=300です。あまり大きな数にすると、学習データを作るのが大変になります。教師はあなたです。<br>
+★デフォルトでは、n=300です。あまり大きな数にすると、教師データを作るのが大変になります。教師はあなたです。<br>
 |Mr. 1 or 0|learned_colors_green.csv|
 |---|---|
 |<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/92b2bbbc-2d8a-491e-5e09-5e8b4e9715b2.png" width="300">|<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/78c96ad9-fc43-9aa7-aeca-6a73ad7101b6.png" width="300">|
@@ -33,7 +33,7 @@ csvファイルを新規作成し、作成したデータを保存します。<b
 
 
 ## 4, predict_LogisticRegression.py、またはpredict_DecisionTree.pyの実行（予測を行ないます）
-2で作成したcsvファイルを読み込み、学習済みデータを任意の割合（デフォルトでは7:3）でトレーニング用とテスト用に分けます。トレーニング用データで学習学習を行ないます。学習後、テスト用データで学習の成果の検証を行ないます。<br>
+2で作成したcsvファイル（教師データ）を読み込み、データを任意の割合（デフォルトでは7:3）でトレーニング用とテスト用に分けます。トレーニング用データで学習を行ないます。学習後、テスト用データで学習の成果の検証を行ないます。<br>
 ★predict_LogisticRegression.pyではロジスティック回帰分析を使用します。ROC曲線のグラフを表示します。<br>
 ★predict_DecisionTree.pyでは決定木を使用します。<br>
 

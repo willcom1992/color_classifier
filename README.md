@@ -9,7 +9,9 @@ csvファイルを新規作成し、各画像のr,g,bの各値のデータを保
 ★プログラム実行後のサンプルとして、colorsフォルダ、created_colors.csvが既に用意されています。
 |colorsフォルダ|created_colors.csv|
 |---|---|
-|![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/287b773d-c661-67f3-6509-9c3902e305e8.png)|![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/230502e4-f611-9c03-43ec-938e4b978802.png)|
+|<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/287b773d-c661-67f3-6509-9c3902e305e8.png" width="300">|<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/230502e4-f611-9c03-43ec-938e4b978802.png" width="300">|
+
+
 
 
 ## 2, color_teacher.pyの実行（単色画像にラベルをつけます）
@@ -20,9 +22,7 @@ csvファイルを新規作成し、作成したデータを保存します。<b
 ★デフォルトでは、n=300です。あまり大きな数にすると、学習データを作るのが大変になります。教師はあなたです。<br>
 |Mr. 1 or 0|learned_colors_green.csv|
 |---|---|
-|![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/92b2bbbc-2d8a-491e-5e09-5e8b4e9715b2.png)|![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/78c96ad9-fc43-9aa7-aeca-6a73ad7101b6.png)|
-
-
+|<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/92b2bbbc-2d8a-491e-5e09-5e8b4e9715b2.png" width="300">|<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/78c96ad9-fc43-9aa7-aeca-6a73ad7101b6.png" width="300">|
 
 ## 3, graph_display.pyの実行（3次元プロットします）
 2で作成した学習済みcsvファイルを読み込み、3次元プロットを作成します。データを直感的に分析することができます。<br>

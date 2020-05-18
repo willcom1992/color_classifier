@@ -29,7 +29,7 @@ csvファイルを新規作成し、作成したデータを保存します。<b
 ★サンプルとして用意されたlearned_colors_green.csv、learned_colors_myfavorites.csvをすぐに読み込むことができます。<br>
 |learned_colors_green.csv|
 |---|
-|![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/9708e565-74f3-8c97-4999-eef7e1a1c5fb.png)|
+|<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/9708e565-74f3-8c97-4999-eef7e1a1c5fb.png" width="450">|
 
 
 ## 4, predict_LogisticRegression.py、またはpredict_DecisionTree.pyの実行（予測を行ないます）
@@ -49,5 +49,5 @@ learned_colors_myfavorites.csv（私の好きな色か、そうでない色か�
 
 |predict_LogisticRegression.py(learned_colors_myfavorites.csv)|
 |---|
-|![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/df36eec2-ad74-e8a1-c066-48652335aced.png)|---|
+|<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/df36eec2-ad74-e8a1-c066-48652335aced.png" width="450">|
 ****************************

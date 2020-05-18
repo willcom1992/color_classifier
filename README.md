@@ -25,7 +25,7 @@ csvファイルを新規作成し、作成したデータを保存します。<b
 |<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/92b2bbbc-2d8a-491e-5e09-5e8b4e9715b2.png" width="300">|<img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/579786/78c96ad9-fc43-9aa7-aeca-6a73ad7101b6.png" width="300">|
 
 ## 3, graph_display.pyの実行（3次元プロットします）
-2で作成した学習済みcsvファイルを読み込み、3次元プロットを作成します。データを直感的に分析することができます。<br>
+2で作成したラベルの貼られたcsvファイルを読み込み、3次元プロットを作成します。データを直感的に分析することができます。<br>
 ★サンプルとして用意されたlearned_colors_green.csv、learned_colors_myfavorites.csvをすぐに読み込むことができます。<br>
 |learned_colors_green.csv|
 |---|
